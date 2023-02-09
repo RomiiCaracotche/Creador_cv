@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-straight/css/uicons-solid-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+  </head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="./../index.html"><img class="header-img" src="https://cdn-icons-png.flaticon.com/512/909/909314.png" alt="cv"></a>
+                <!-- <a class="navbar-brand header-a" href="#"></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav w-100 list-nav">       
+                        <li class="nav-item item-nav ms-3 d-flex justify-content-center align-items-center">
+                            <a class="nav-link active fw-bold h-100 p-0 d-flex justify-content-center align-items-center me-1" aria-current="page" href="./registrarse.html">Registrarte</a>
+                            <i class="fi fi-ss-user-add mt-1 me-3"></i>
+                        </li>
+                        <li class="nav-item item-nav ms-3 d-flex justify-content-center align-items-center">
+                            <a class="nav-link active fw-bold h-100 p-0 d-flex justify-content-center align-items-center me-1" href="./preguntas.html">Preguntas frecuentes</a>
+                            <i class="fi fi-rr-interrogation mt-1"></i>
+                        </li>
+                        <li class="nav-item item-nav ms-3 d-flex justify-content-center align-items-center">
+                            <a class="nav-link active fw-bold h-100 p-0 d-flex justify-content-center align-items-center me-1" href="./ingresar.html">Ingresar</a>
+                            <i class="fi fi-br-enter mt-1"></i>
+                        </li>           
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="w-50 m-auto mt-5">
+            
+            <form action="" class="needs-validation" novalidate>
+
+                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Información Personal</legend>
+                    <div class="mb-3 ">
+                        <label for="nombre" class="form-label fw-bold">Nombre Completo:</label>
+                        <input type="text" class="form-control nombre" id="nombre" placeholder="Agrega aquí su nombre..." required>
+                        <div id="div-nombre"></div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="dni" class="form-label fw-bold">Documento de Identidad:</label>
+                        <input type="number" class="form-control dni" id="dni" placeholder="Agrega aquí su documento..." required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="edad" class="form-label fw-bold">Edad:</label>
+                        <input type="number" class="form-control edad" id="edad" placeholder="Agrega aquí su edad..." required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="localidad" class="form-label fw-bold">Localidad:</label>
+                        <input type="text" class="form-control localidad" id="localidad" placeholder="Agrega aquí su localidad..." required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="nacionalidad" class="form-label fw-bold">Nacionalidad:</label>
+                        <input type="text" class="form-control nacionalidad" id="nacionalidad" placeholder="Agrega aquí su nacionalidad..." required>
+                    </div>
+                </fieldset>
+
+
+                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Contacto</legend>
+                    <div class="mb-3">
+                        <label for="celular" class="form-label fw-bold">Celular:</label>
+                        <input type="number" class="form-control celular" id="celular" placeholder="Agrega aquí su celular..." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">Email:</label>
+                        <input type="email" class="form-control email" id="email" placeholder="Agrega aquí su email..." required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="linkedin" class="form-label fw-bold">Linkedin:</label>
+                        <input type="text" class="form-control linkedin" id="linkedin" placeholder="Agrega aquí su linkedin...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="github" class="form-label fw-bold">Github:</label>
+                        <input type="text" class="form-control github" id="github" placeholder="Agrega aquí su github...">
+                    </div>
+                    <div class="mb-3">
+                        <label for="web" class="form-label fw-bold">Web:</label>
+                        <input type="text" class="form-control web" id="web" placeholder="Agrega aquí su web...">
+                    </div>
+                </fieldset>
+
+                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Puesto</legend>
+                    <div class="mb-3">
+                        <label for="puesto" class="form-label fw-bold">Puesto:</label>
+                        <input type="text" class="form-control puesto" id="puesto" placeholder="Agrega aquí su puesto..." required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Objetivo</legend>
+                    <div class="mb-3">
+                        <label for="perfil" class="form-label fw-bold">Perfil | Objetivo:</label>
+                        <input type="text" class="form-control perfil" id="perfil" placeholder="Agrega aquí su perfil..." required>
+                    </div>
+                </fieldset>
+
+                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                    <legend class="text-center fw-bold text-decoration-underline">Experiencias</legend>
+                    <div class="mb-3">
+                        <label for="experiencia" class="form-label fw-bold">Experiencia:</label>
+                        <div class="d-flex">
+                            <input type="text" class="form-control experiencia" id="experiencia" placeholder="Agrega aquí una experiencia...">
+                            <input type="button" value="+" class="agregar-experiencia btn btn-secondary ms-2">
+                        </div>
+                    </div>
+                    <ul class="list-group lista-experiencias"></ul>
+                </fieldset> 
+                
+                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                    <legend class="text-center fw-bold text-decoration-underline">Habilidades</legend>
+                    <div class="mb-3">
+                        <label for="habilidad" class="form-label fw-bold">Habilidad:</label>
+                        <div class="d-flex">
+                            <input type="text" placeholder="agrega una habilidad..." id="habilidad" class="form-control habilidad">
+                            <input type="button" value="+" class="agregar-habilidad btn btn-secondary ms-2">
+                        </div>
+                    </div>
+                    <ul class="list-group lista-habilidades"></ul>     
+                </fieldset>
+                
+                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                    <legend class="text-center fw-bold text-decoration-underline">Formaciones</legend>
+                    <div class="mb-3">
+                        <label for="formacion" class="form-label fw-bold">Formación:</label>
+                        <div class="d-flex">
+                            <input type="text" placeholder="agrega una formación..." id="formacion" class="form-control formacion">
+                            <input type="button" value="+" class="agregar-formacion btn btn-secondary ms-2">
+                        </div>
+                    </div>
+                    <ul class="list-group lista-formaciones"></ul>     
+                </fieldset>
+               
+                <fieldset class="text-start p-3 mb-3 border border-secondary rounded" id="fieldset-foto">
+                    <legend class="text-center fw-bold text-decoration-underline">Foto</legend>
+                    <div class="mb-3 mt-5 d-flex flex-column">
+                        <div class="d-flex">
+                            <label for="foto" class="form-label me-3 fw-bold">Seleccione una foto:</label>
+                            <input type="file" name="file" id="file" onchange="return validarExtension()" required>
+                        </div>
+                        <div id="imagePreview" class="imagePreview cont-foto d-flex justify-content-center mt-4"></div>
+                    </div> 
+                </fieldset>
+
+                <input type="button" value="Aceptar" class="agregar-datos btn btn-dark w-100 mt-2 mb-5">
+            </form>
+        </div>
+    </section>
+    
+    <footer class="text-center text-white">
+            <!-- Grid container -->
+        <div class="container p-4">
+
+                <!-- Facebook -->
+                <a class="btn btn-outline-dark m-1" href="#!" role="button"><i class="fi fi-brands-facebook"></i></a>
+                <!-- Twitter -->
+                <a class="btn btn-outline-dark m-1" href="#!" role="button"><i class="fi fi-brands-twitter"></i></a>
+                <!-- Google -->
+                <a class="btn btn-outline-dark m-1" href="#!" role="button"><i class="fi fi-brands-google"></i></a>
+                <!-- Instagram -->
+                <a class="btn btn-outline-dark m-1" href="#!" role="button"><i class="fi fi-brands-instagram"></i></a>
+                <!-- Linkedin -->
+                <a class="btn btn-outline-dark m-1" href="#!" role="button"><i class="fi fi-brands-linkedin"></i></a>
+        
+            </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+    <script src="../sources/html2pdf.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+  </body>
+</html>

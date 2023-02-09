@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@200;300;400;700&display=swap');
+
+:root {
+    --bg-color-green-dark: rgb(153, 153, 153);
+    --bg-color-green-light: rgb(230, 230, 230);
+    --bg-color-lightblue: rgb(128, 188, 197);
+  }
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    width: 100%;
+    background: rgb(36,189,242);
+    background: radial-gradient(circle, rgba(36,189,242,0.7231267507002801) 30%, rgba(72,250,221,1) 94%); 
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    background-image: url("https://media.istockphoto.com/id/1267682907/es/vector/curva-de-degradado-blanco-y-gris-abstracto-con-fondo-moderno-de-semitono-ilustraci%C3%B3n.jpg?s=612x612&w=0&k=20&c=MalCntREIfqMce1lK44jr43YHxThgJCJtF_M9sOvSXE=");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 90vh;
+}
+
+footer {
+    width: 100%;
+    background: rgb(36,189,242);
+    background: radial-gradient(circle, rgba(36,189,242,0.7231267507002801) 30%, rgba(72,250,221,1) 94%);
+}
+
+.bg-grey-light{
+    background: var(--bg-color-green-light);
+}
+
+.list-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-img {
+    width: 60px;
+    height:60px;
+}
+
+/* .contenedor-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .main-titulo {
+    height: 100px;
+} */
+
+/* .main-boton {
+    height: 100px;
+} */
+
+.cont-foto img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/*-----------------TEMPLATE---------------------*/
+
+.bg-green-dark {
+    background-color: var(--bg-color-green-dark);
+}
+
+.bg-lightblue {
+    background-color: var(--bg-color-lightblue);
+}
+
+h4 {
+    height: 100%;
+}
+
+.cont-princ{
+    height: 150px;
+}
+
+.foto {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/*----------------------------------------------*/
