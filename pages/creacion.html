@@ -44,130 +44,132 @@
     </header>
 
     <section>
-        <div class="w-50 m-auto mt-5">
-            
-            <form action="" class="needs-validation" novalidate>
-
-                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
-                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Información Personal</legend>
-                    <div class="mb-3 ">
-                        <label for="nombre" class="form-label fw-bold">Nombre Completo:</label>
-                        <input type="text" class="form-control nombre" id="nombre" placeholder="Agrega aquí su nombre..." required>
-                        <div id="div-nombre"></div>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="dni" class="form-label fw-bold">Documento de Identidad:</label>
-                        <input type="number" class="form-control dni" id="dni" placeholder="Agrega aquí su documento..." required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="edad" class="form-label fw-bold">Edad:</label>
-                        <input type="number" class="form-control edad" id="edad" placeholder="Agrega aquí su edad..." required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="localidad" class="form-label fw-bold">Localidad:</label>
-                        <input type="text" class="form-control localidad" id="localidad" placeholder="Agrega aquí su localidad..." required>
-                    </div>
-
-                    <div class="mb-3">
-                        <label for="nacionalidad" class="form-label fw-bold">Nacionalidad:</label>
-                        <input type="text" class="form-control nacionalidad" id="nacionalidad" placeholder="Agrega aquí su nacionalidad..." required>
-                    </div>
-                </fieldset>
-
-
-                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
-                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Contacto</legend>
-                    <div class="mb-3">
-                        <label for="celular" class="form-label fw-bold">Celular:</label>
-                        <input type="number" class="form-control celular" id="celular" placeholder="Agrega aquí su celular..." required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label fw-bold">Email:</label>
-                        <input type="email" class="form-control email" id="email" placeholder="Agrega aquí su email..." required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="linkedin" class="form-label fw-bold">Linkedin:</label>
-                        <input type="text" class="form-control linkedin" id="linkedin" placeholder="Agrega aquí su linkedin...">
-                    </div>
-                    <div class="mb-3">
-                        <label for="github" class="form-label fw-bold">Github:</label>
-                        <input type="text" class="form-control github" id="github" placeholder="Agrega aquí su github...">
-                    </div>
-                    <div class="mb-3">
-                        <label for="web" class="form-label fw-bold">Web:</label>
-                        <input type="text" class="form-control web" id="web" placeholder="Agrega aquí su web...">
-                    </div>
-                </fieldset>
-
-                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
-                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Puesto</legend>
-                    <div class="mb-3">
-                        <label for="puesto" class="form-label fw-bold">Puesto:</label>
-                        <input type="text" class="form-control puesto" id="puesto" placeholder="Agrega aquí su puesto..." required>
-                    </div>
-                </fieldset>
-
-                <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
-                    <legend class="text-center mb-4 fw-bold text-decoration-underline">Objetivo</legend>
-                    <div class="mb-3">
-                        <label for="perfil" class="form-label fw-bold">Perfil | Objetivo:</label>
-                        <input type="text" class="form-control perfil" id="perfil" placeholder="Agrega aquí su perfil..." required>
-                    </div>
-                </fieldset>
-
-                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
-                    <legend class="text-center fw-bold text-decoration-underline">Experiencias</legend>
-                    <div class="mb-3">
-                        <label for="experiencia" class="form-label fw-bold">Experiencia:</label>
-                        <div class="d-flex">
-                            <input type="text" class="form-control experiencia" id="experiencia" placeholder="Agrega aquí una experiencia...">
-                            <input type="button" value="+" class="agregar-experiencia btn btn-secondary ms-2">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div class="contenedor">
+                <form action="" class="">
+                    
+                    <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                        <legend class="text-center mb-4 fw-bold text-decoration-underline">Información Personal</legend>
+                        <div class="mb-3 ">
+                            <label for="nombre" class="form-label fw-bold">Nombre Completo:</label>
+                            <input type="text" class="form-control nombre" id="nombre" placeholder="Agrega aquí su nombre..." required>
+                            <div id="div-nombre"></div>
                         </div>
-                    </div>
-                    <ul class="list-group lista-experiencias"></ul>
-                </fieldset> 
-                
-                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
-                    <legend class="text-center fw-bold text-decoration-underline">Habilidades</legend>
-                    <div class="mb-3">
-                        <label for="habilidad" class="form-label fw-bold">Habilidad:</label>
-                        <div class="d-flex">
-                            <input type="text" placeholder="agrega una habilidad..." id="habilidad" class="form-control habilidad">
-                            <input type="button" value="+" class="agregar-habilidad btn btn-secondary ms-2">
+    
+                        <div class="mb-3">
+                            <label for="dni" class="form-label fw-bold">Documento de Identidad:</label>
+                            <input type="number" class="form-control dni" id="dni" placeholder="Agrega aquí su documento..." required>
                         </div>
-                    </div>
-                    <ul class="list-group lista-habilidades"></ul>     
-                </fieldset>
-                
-                <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
-                    <legend class="text-center fw-bold text-decoration-underline">Formaciones</legend>
-                    <div class="mb-3">
-                        <label for="formacion" class="form-label fw-bold">Formación:</label>
-                        <div class="d-flex">
-                            <input type="text" placeholder="agrega una formación..." id="formacion" class="form-control formacion">
-                            <input type="button" value="+" class="agregar-formacion btn btn-secondary ms-2">
+    
+                        <div class="mb-3">
+                            <label for="edad" class="form-label fw-bold">Edad:</label>
+                            <input type="number" class="form-control edad" id="edad" placeholder="Agrega aquí su edad..." required>
                         </div>
-                    </div>
-                    <ul class="list-group lista-formaciones"></ul>     
-                </fieldset>
-               
-                <fieldset class="text-start p-3 mb-3 border border-secondary rounded" id="fieldset-foto">
-                    <legend class="text-center fw-bold text-decoration-underline">Foto</legend>
-                    <div class="mb-3 mt-5 d-flex flex-column">
-                        <div class="d-flex">
-                            <label for="foto" class="form-label me-3 fw-bold">Seleccione una foto:</label>
-                            <input type="file" name="file" id="file" onchange="return validarExtension()" required>
+    
+                        <div class="mb-3">
+                            <label for="localidad" class="form-label fw-bold">Localidad:</label>
+                            <input type="text" class="form-control localidad" id="localidad" placeholder="Agrega aquí su localidad..." required>
                         </div>
-                        <div id="imagePreview" class="imagePreview cont-foto d-flex justify-content-center mt-4"></div>
-                    </div> 
-                </fieldset>
-
-                <input type="button" value="Aceptar" class="agregar-datos btn btn-dark w-100 mt-2 mb-5">
-            </form>
+    
+                        <div class="mb-3">
+                            <label for="nacionalidad" class="form-label fw-bold">Nacionalidad:</label>
+                            <input type="text" class="form-control nacionalidad" id="nacionalidad" placeholder="Agrega aquí su nacionalidad..." required>
+                        </div>
+                    </fieldset>
+    
+    
+                    <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                        <legend class="text-center mb-4 fw-bold text-decoration-underline">Contacto</legend>
+                        <div class="mb-3">
+                            <label for="celular" class="form-label fw-bold">Celular:</label>
+                            <input type="number" class="form-control celular" id="celular" placeholder="Agrega aquí su celular..." required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label fw-bold">Email:</label>
+                            <input type="email" class="form-control email" id="email" placeholder="Agrega aquí su email..." required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="linkedin" class="form-label fw-bold">Linkedin:</label>
+                            <input type="text" class="form-control linkedin" id="linkedin" placeholder="Agrega aquí su linkedin...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="github" class="form-label fw-bold">Github:</label>
+                            <input type="text" class="form-control github" id="github" placeholder="Agrega aquí su github...">
+                        </div>
+                        <div class="mb-3">
+                            <label for="web" class="form-label fw-bold">Web:</label>
+                            <input type="text" class="form-control web" id="web" placeholder="Agrega aquí su web...">
+                        </div>
+                    </fieldset>
+    
+                    <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                        <legend class="text-center mb-4 fw-bold text-decoration-underline">Puesto</legend>
+                        <div class="mb-3">
+                            <label for="puesto" class="form-label fw-bold">Puesto:</label>
+                            <input type="text" class="form-control puesto" id="puesto" placeholder="Agrega aquí su puesto..." required>
+                        </div>
+                    </fieldset>
+    
+                    <fieldset class="text-start p-3 mb-3 mt-3 border border-secondary rounded">
+                        <legend class="text-center mb-4 fw-bold text-decoration-underline">Objetivo</legend>
+                        <div class="mb-3">
+                            <label for="perfil" class="form-label fw-bold">Perfil | Objetivo:</label>
+                            <input type="text" class="form-control perfil" id="perfil" placeholder="Agrega aquí su perfil..." required>
+                        </div>
+                    </fieldset>
+    
+                    <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                        <legend class="text-center fw-bold text-decoration-underline">Experiencias</legend>
+                        <div class="mb-3">
+                            <label for="experiencia" class="form-label fw-bold">Experiencia:</label>
+                            <div class="d-flex">
+                                <input type="text" class="form-control experiencia" id="experiencia" placeholder="Agrega aquí una experiencia...">
+                                <input type="button" value="+" class="agregar-experiencia btn btn-secondary ms-2">
+                            </div>
+                        </div>
+                        <ul class="list-group lista-experiencias"></ul>
+                    </fieldset> 
+                    
+                    <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                        <legend class="text-center fw-bold text-decoration-underline">Habilidades</legend>
+                        <div class="mb-3">
+                            <label for="habilidad" class="form-label fw-bold">Habilidad:</label>
+                            <div class="d-flex">
+                                <input type="text" placeholder="agrega una habilidad..." id="habilidad" class="form-control habilidad">
+                                <input type="button" value="+" class="agregar-habilidad btn btn-secondary ms-2">
+                            </div>
+                        </div>
+                        <ul class="list-group lista-habilidades"></ul>     
+                    </fieldset>
+                    
+                    <fieldset class="text-start p-3 mb-3 border border-secondary rounded">
+                        <legend class="text-center fw-bold text-decoration-underline">Formaciones</legend>
+                        <div class="mb-3">
+                            <label for="formacion" class="form-label fw-bold">Formación:</label>
+                            <div class="d-flex">
+                                <input type="text" placeholder="agrega una formación..." id="formacion" class="form-control formacion">
+                                <input type="button" value="+" class="agregar-formacion btn btn-secondary ms-2">
+                            </div>
+                        </div>
+                        <ul class="list-group lista-formaciones"></ul>     
+                    </fieldset>
+                   
+                    <fieldset class="text-start p-3 mb-3 border border-secondary rounded" id="fieldset-foto">
+                        <legend class="text-center fw-bold text-decoration-underline">Foto</legend>
+                        <div class="mb-3 mt-5 d-flex flex-column">
+                            <div class="d-flex">
+                                <label for="foto" class="form-label me-3 fw-bold">Seleccione una foto:</label>
+                                <input type="file" name="file" id="file" onchange="return validarExtension()" required>
+                            </div>
+                            <div id="imagePreview" class="imagePreview cont-foto d-flex justify-content-center mt-4"></div>
+                        </div> 
+                    </fieldset>
+    
+                    <input type="button" value="Aceptar" class="agregar-datos btn btn-dark w-100 mt-2 mb-5">
+                </form>
+            </div>
         </div>
+        
     </section>
     
     <footer class="text-center text-white">
